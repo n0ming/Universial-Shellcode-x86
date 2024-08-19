@@ -59,4 +59,6 @@ IpCmdLine은 Hello.exe의 주소가 들어가야하며, uCmdShow는 SW_SHOWNORMA
 ```
 
 번외로 저는 기존의 공간 할당한 크기값을 좀더 줄여서 진행하여 0x40을 마지막에 다시 add해주었습니다.
+```assembly
     add esp, 0x40
+```
